@@ -1,0 +1,80 @@
+.padre
+{
+
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+                         "nav    nav    nav    Nombre"
+                         "car    car    acord  acord2 "
+                         "car    car    acord  acord2 "
+                         "foot   foot   foot   foot  ";
+}
+.padre .nav
+{
+
+    grid-area: nav;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.h1
+{
+    font-family:'Times New Roman', Times, serif;
+    grid-area: Nombre;
+}
+.h2
+{
+    size: 10px;
+}
+.car
+{
+    grid-area: car;
+}
+.carde
+{
+    grid-area: acord;
+}
+.card 
+{
+    font-family: 'Times New Roman', Times, serif;    
+    
+}
+.carde2
+{
+    grid-area: acord2;
+}
+.foot
+{
+    font-family: 'Times New Roman', Times, serif;
+    grid-area: foot;
+}
+.carrer
+{
+    grid-area: car;
+}
+.materias
+{
+    grid-area: acord;
+    text-align: center;
+}
+.musica
+{
+    grid-area: acord;
+    font-family: 'Times New Roman', Times, serif;
+}
+.h3 {
+    grid-area: car;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+}
+.deport
+{
+    grid-area: acord;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.h4
+{
+    font-family: 'Times New Roman', Times, serif;
+    grid-area: car;
+}
